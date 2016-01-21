@@ -28,6 +28,9 @@ Make sure this software is installed before running the script.
 - tables created by code (using Pander) included
 - different ways to create markdown file
 - no need to type all pandoc arguments, they are passed to config-file
+- page break
+
+Pretty much all features needed for a quick and non-tailored document.
 
 
 
@@ -39,4 +42,7 @@ Make sure this software is installed before running the script.
 
 Note: To compile to eg `hmtl change the pandoc option this way: 
 from `o: output.pdf`to `o: output.html`.
+
+
+Credit to authors of the software used!
 
