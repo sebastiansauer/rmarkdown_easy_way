@@ -1,0 +1,8 @@
+t: latex
+s:
+mathjax:
+csl: apa.csl
+number-sections:
+bibliography: knitr.bib
+o: output_external_config.pdf
+S:

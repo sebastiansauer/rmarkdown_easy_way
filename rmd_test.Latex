@@ -1,0 +1,69 @@
+\pagebreak
+
+\section{Header 1}\label{header-1}
+
+\textbf{Here's some bold text} and \emph{here's some italic text}.
+\texttt{This\ is\ inline\ code}.
+
+\section{Markdown Tables}\label{markdown-tables}
+
+\begin{longtable}[c]{@{}llll@{}}
+\toprule
+First Name & Last Name & Location & Allegiance\tabularnewline
+\midrule
+\endhead
+Mance & Rayder & North of the Wall & Wildlings\tabularnewline
+Margaery & Tyrell & The Reach & House Tyrell\tabularnewline
+Danerys & Targaryen & Meereen & House Targaryen\tabularnewline
+Tyrion & Lannister & King's Landing & House Lannister\tabularnewline
+\bottomrule
+\end{longtable}
+
+\section{Code blocks}\label{code-blocks}
+
+\begin{verbatim}
+This code
+is in
+a code block.
+\end{verbatim}
+
+\section{Header 1}\label{header-1-1}
+
+Cite Yihui {[}@xie2013{]}.
+
+This document supports inline \LaTeX!
+
+Here's the proof: \(\frac{n!}{k!(n-k)!} = \binom{n}{k}\)
+
+Creating a footnote is easy.\footnote{An example footnote.}
+
+\begin{tabular}{|l|l|}\hline
+Age & Frequency \\ \hline
+18--25  & 15 \\
+26--35  & 33 \\
+36--45  & 22 \\ \hline
+\end{tabular}
+
+\subsection{Header 2}\label{header-2}
+
+hey there
+
+\begin{verbatim}
+##      speed           dist       
+##  Min.   : 4.0   Min.   :  2.00  
+##  1st Qu.:12.0   1st Qu.: 26.00  
+##  Median :15.0   Median : 36.00  
+##  Mean   :15.4   Mean   : 42.98  
+##  3rd Qu.:19.0   3rd Qu.: 56.00  
+##  Max.   :25.0   Max.   :120.00
+\end{verbatim}
+
+\section{A little bit math}\label{a-little-bit-math}
+
+Our regression equation is \(Y=-17.5791+3.9324x\), and the model is:
+
+\[ Y = \beta_0 + \beta_1 x + \epsilon\]
+
+Mean speed is 15.4.
+
+REFERENCES
