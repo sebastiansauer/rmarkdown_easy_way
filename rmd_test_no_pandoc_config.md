@@ -13,6 +13,20 @@ date: "21 Januar 2016"
 **Here's some bold text** and *here's some italic text*. `This is inline code`.
 No config in the main file, but in external config file.
 
+That is a list:
+
+- what I ever wanted to tell you
+- now I forget
+- but I will think about it
+
+Numbered list:
+
+1. Do it
+2. Do it again
+3. If in doubt, see 1.
+4. Still in doubt? See 2.
+
+
 
 # Markdown Tables
 
@@ -38,6 +52,10 @@ Cite Yihui [@xie2013].
 This document supports inline \LaTeX!
 
 Here's the proof: $\frac{n!}{k!(n-k)!} = \binom{n}{k}$
+
+This is a line:
+
+*****************
 
 Creating a footnote is easy.\footnote{An example footnote.}
 

@@ -2,6 +2,7 @@
 title: "rmd_test"
 author: "Sebastian Sauer"
 date: "21 Januar 2016"
+output: pdf_document
 ---
 
 
@@ -12,6 +13,20 @@ date: "21 Januar 2016"
 # Header 1
 **Here's some bold text** and *here's some italic text*. `This is inline code`.
 No config in the main file, but in external config file.
+
+That is a list:
+
+- what I ever wanted to tell you
+- now I forget
+- but I will think about it
+
+Numbered list:
+
+1. Do it
+2. Do it again
+3. If in doubt, see 1.
+4. Still in doubt? See 2.
+
 
 
 # Markdown Tables
@@ -39,6 +54,10 @@ This document supports inline \LaTeX!
 
 Here's the proof: $\frac{n!}{k!(n-k)!} = \binom{n}{k}$
 
+This is a line:
+
+*****************
+
 Creating a footnote is easy.\footnote{An example footnote.}
 
 
@@ -64,6 +83,8 @@ Our regression equation is $Y=-17.5791+3.9324x$, and the model is:
 $$ Y = \beta_0 + \beta_1 x + \epsilon$$
 
 Mean speed is `r round(speed_mean, 2)`.
+
+Die mittlere Gewschwindigkeit war `r round(speed_mean, 2)` mph.
 
 
 REFERENCES
